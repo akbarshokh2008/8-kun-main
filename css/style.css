@@ -1,0 +1,56 @@
+body {
+  background: #1c544d;
+}
+.asosiy {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.qavat {
+  margin-top: 10px;
+  width: 400px;
+  height: 800px;
+  background: rgb(92, 144, 197);
+  position: relative;
+}
+.button{
+  display: flex; 
+  gap: 25px;
+}
+.btnlar{
+  display: flex;
+   gap: 10px;
+}
+.lift {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 200px;
+  background: gray;
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+}
+
+.current-floor {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.tugma {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.tugma button {
+  padding: 15px;
+  background-color: #21163b;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
